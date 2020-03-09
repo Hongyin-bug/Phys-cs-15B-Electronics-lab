@@ -1,0 +1,4 @@
+Moving the accelerometer would change the numbers.
+When the accelerometer is turned upside-down, the acceleration a in the z-direction
+is measured as negative. Hence the absolute value |a-g| = |-g-g|is approximately 19, 
+which is approximately two times the acceleration of gravity. 

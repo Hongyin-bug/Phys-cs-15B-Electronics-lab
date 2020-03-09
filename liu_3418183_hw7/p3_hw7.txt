@@ -1,0 +1,16 @@
+(a) When set to 5%, the voltage shown in the oscilloscope consists of two peaks 
+of opposite directions (the positive peak higher than the lower peak by approximately 0.2V),
+with amplitudes of 2V. 
+The two wavelets are of the shape of triangles.
+(b) When change the cycle to 10% the voltage amplitude changes by only about 0.2V,
+but the distance between the two wavelets changes. 
+With 5%, there is a distance of 20 micro-seconds.
+With 10 %, there is a distance of 40 micro-seconds.
+When the duty cycle is set to zero, there is no voltage shown, a linear line.
+When duty cycle is briefly set to 100%, the voltage line remains a linear line with small peaks.
+This is because when it's 100%, the PWM is always on, so it will not go to the off position.
+When the duty cycle is 10%, 10% on means 10% of the time the wave is in the on position, 
+so there are wavelets showing the PWM is on.
+(c) Capacitance, C = 1 micro-F
+frequency, f = 36kHz.
+Capacitor impedance, XC = 1/(2*pi*f*C) = 4.42 Ohms.

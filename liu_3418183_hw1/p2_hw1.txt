@@ -1,0 +1,2 @@
+What is the temperature in Celsius? 37
+The temperature in Fahrenheit is:  98.6

@@ -1,0 +1,5 @@
+(a) 3.3V + 0.3V = 3.6V
+(b) -0.3
+(c) Differential impedance is 4.9 Mega-Ohms
+(d) If more than 1 mA is drawn, the voltage would be below 5V, which is the VDD voltage. I found the answer in FIGURE 2-16 of the MCP4725 data sheet.
+(e) 3.3 kilo-ohms

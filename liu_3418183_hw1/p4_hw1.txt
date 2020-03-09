@@ -1,0 +1,11 @@
+x = hello
+Not a number, please try again.
+
+x = 1
+
+y = 0
+Please select a different y (divisor) as to not make your primary school teacher unhappy :D
+
+y = 3
+x - y =  -2.0000
+x/y =  0.3333

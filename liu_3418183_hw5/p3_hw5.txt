@@ -1,0 +1,10 @@
+(a) When not sure of the orientation, one could first measure the initial absolute
+value of each component of the acceleration and add it to a list labeled as accel0 
+(this would include the acceleration contribution from Earth's gravity and some small 
+fluctuations), wait a really short period of time (e.g. 1ms), then measure the absolute 
+value of each component of acceleration again and add them to the list labeled as accel1.
+The net instantaneous acceleration would then be sqrt(sum(|accel1[i] - accel0[i]|^2)),
+where i is the element in each list indicating the measured initial and final values of
+each acceleration component.
+
+(b) See code.

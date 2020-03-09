@@ -1,0 +1,2 @@
+From the datasheet, the maximum Gate-Source voltage an IRL530N can withstand is 16V.
+Maximum Gate-Source produced by the circuit "above": Vdd - 0.025 = 12V - 0.025V = 11.975V.

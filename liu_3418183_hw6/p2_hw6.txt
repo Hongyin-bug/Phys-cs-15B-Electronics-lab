@@ -1,0 +1,17 @@
+(a) The heater has such a low resistance as it acts like a wire. 
+Voltage to heater of 3.6 ohms to produce 10W heating: V = sqrt(PR) = 6V.
+Voltage needed for a 100 kilo-ohms: = sqrt(10^6) = 1kV.
+(b) The resistance of 04T1003FP thermister at 25 degrees Celcius is 10 kilo-ohms.
+When the temperature drops to 22 degrees, the resistance will be higher according to the data sheet.
+(c) Voltage across the resistor is measured by pins A2 and A3 of the ADC, denoted as v23.
+Voltage across the whole circuit is measured by pins A0 and A1 of the ADC, denoted as v01.
+Voltage across the resistance is vt = v01 - v23.
+Current through resistor is I = v23/(10^5 ohms); this is also the current across the circuit.
+Hence, the resistance of the thermister is Rt = Vt/I.
+(d) The measured resistance is approximately 16.834 Ohms, and the current is approximately 0.10373A.
+The power dissipated by the thermistor is therefore P = I^2R = 0.181 W.
+(e) T0 = 23.84 degreees Celcius, R(T0) = 15.73 Ohms.
+(f) ln(R/R0) = alpha*T - alpha*T0 + beta*T^2 + beta*t0^2 -2*beta*T0*T
+Hence T(R) = (2*beta*T0 - alpha - sqrt((alpha - 2*beta*T0)^2 - 4*beta*(beta*t0^2 -2*beta*T0*T - ln(R/R0))*(1/(2*beta))
+T(R) = 263.84 - 5000*sqrt(0.002304 + 0.0004*ln(R/15.73))
+(g) see code.

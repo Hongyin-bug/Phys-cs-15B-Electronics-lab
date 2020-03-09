@@ -1,0 +1,6 @@
+(a) The DAC is updating voltage every 2000 micro-seconds, or a frequncy of 500Hz.
+(b) The voltage output is updated with a lessser frequency.
+(c) The voltage update now is at a frequency of approximately 800Hz.
+(d) The update interval is smaller; in other words, the voltage is updating faster.
+This is because the program no longer needs to go through the setV function, which
+include a few "if" statements.

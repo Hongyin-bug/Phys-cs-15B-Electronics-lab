@@ -1,0 +1,7 @@
+To update the temperature faster, I took the average temperature over 0.1 seconds,
+taking temperature data over 0.02 seconds, so there are five data every 0.1 sec.
+To make sure the temperature is stabilized, I used bang-bang servo for 200 cycles,
+so a total of 20 seconds for each temperature measurement (i.e. 30, 35, etc.).
+There is a phase shift of 2 to 4 seconds between the thermister measurement and 
+the RTD measurement, so an sleep time of 2 seconds is inserted in my code before
+recording the RTD temperature measurement.

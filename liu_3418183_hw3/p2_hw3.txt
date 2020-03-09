@@ -1,0 +1,16 @@
+R = 330 kilo-Ohms
+C = 10^(-6) F
+(a) Expected time constant: Tau = RC = 0.330 sec
+    Measured: 0.307 sec 
+    How it compares: There is a 7 percent difference
+between measurement and expected value, which is not a huge
+amount. This might be due to the resistances in circuit elements.
+
+(b) After V_in is set to 3.3V and 5 time constants passed,
+V_out is approximately 3.2V. There is a difference of 0.1V 
+because there is some ADC input resistance and capacitor 
+insulation resistance stopping the V_out from reaching 3.3V. 
+The capacitor has more insulation resistance. The capacitor 
+has a capacitance of 10^(-6)F, and by page 1 of the ECQV data
+sheet, the capacitor has a insulation resistance of 1000 Mega-Ohms,
+which is really significant.

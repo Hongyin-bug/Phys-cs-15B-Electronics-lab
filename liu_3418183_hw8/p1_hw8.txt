@@ -1,0 +1,3 @@
+(a) Room temperature, T0 = 22.720 degrees Celcius
+(b) R0 = R(T0) = 16.310 (Kilo-Ohms)
+(My measurement are off by kilo-Ohms, so use Kilo-Ohms here instead).

@@ -1,0 +1,4 @@
+Switches do not dissipate much power as it has little resistance (similar to wires).
+If the switch is open, no current flows through it. For a swtich with very low contact resistance,
+the voltage across it is approximately zero. For an ideal switch, the voltage across is zero,
+and the power dissipated is zero as well.

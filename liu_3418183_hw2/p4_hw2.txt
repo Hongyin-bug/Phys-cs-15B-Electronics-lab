@@ -1,0 +1,10 @@
+(a) The dominant frequency is f = 1/T = 1/(0.01s) \approx 100Hz
+(b) After I ran the program, the elapsed time is approximately 4.08sec,
+which is twice the time of the set data acquisition time (2.0s). 
+This data isn't trustworthy, as the hardware and software speeds could be
+less than 3300 step/sec. The code require an acquisition time of 2 sec, 
+meaning that to go through 6600 steps. However, if the processing speed
+of a hardware on the breadboard has a processing speed of 1/1500 seconds/step,
+the total time taken would be 4.4 seconds, which is longer than the acquisition time.
+Hence, some steps might not have been run, and the python script is not fully executed,
+so the data is not trustworthy.

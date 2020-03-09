@@ -1,0 +1,31 @@
+(a) For the second plot, the signal frequncy is 850 Hz.
+The measured frequency of the aliased signal is 66.7 Hz.
+(For some reason, when the image is saved as an eps file, it does not show up, 
+so the images are saved as png instead)Oscillospcer
+
+(b) The period of the signal is approximately 0.0035 sec. The corresponding frequency is approximately 286 Hz,
+which is quite close to 260 Hz. The maximum error is about 35 hz, because the period measurement has an error
+of 0.0005 sec, and 1/(0.004 s) - 1/(0.0035 s) is approximately -35 hz.
+Compare:
+ 		frequency(hz)		amplitude(V)		DC offset
+ADC		286			4			4
+
+Oscillosope	260.4			3.8			0.5
+
+(c) fmod = 250 kHz 	for ADS 1015
+frequency(Hz)	Oscilloscope: Amplitude(V)	Offset(V)	Amplitude(V)	
+260		3.84				0.5		4
+360		3.92				0.5		4
+410		3.92				0.5		4
+440		3.96				0.5		4
+450		3.96				0.5		4
+460		3.94				0.5		4
+470		3.94				0.5		3.8
+480		4.08				0.4		3.8
+510		4.04				0.4		4
+560		4.04				0.4		4
+660		4.04				0.4		4
+
+As I went through the Nyquist frequency, there are gaps between the wave elements 
+(attached is a photo).
+	

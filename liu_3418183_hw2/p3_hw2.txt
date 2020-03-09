@@ -1,0 +1,20 @@
+R1 = 322 Kilo-Ohms
+R2 = 9.8 Kilo-Ohms
+
+(a) For inputs of:
+	1.1V- Output Voltage = 0.0325V
+	2.2V- Output = 0.0650V
+	3.3V- Output = 0.0975
+(b) Using dacdemo and adcdemo:
+	1.1 - 0.032V
+	2.2 - 0.066V
+	3.3 - 0.098V
+(c) The error between predicted output voltage and actual output voltage is approximately 0.0005V, 
+which is an error of 1.53 - 0.5 percent error depending on the input voltage. Now, output error of 
+the MCP4725(DAC) is 0.5mV, and the output error of ADS1015(ADC) is really small, and can be treated 
+as zero. Hence, the total error due to the discrete nature of DAC output and ADC input is approximately 
+0.0005V. We can find the error due to the resistances by error propagation of the function V_out = V(R1,R2), 
+where R1 and R2 are the resistances of the two resistors, each with a 5 percent toerance. After an arrangement of equation, 
+it is found that V = V_in*R2/(R1 + R2). By error propagation, delta(V) = sqrt((delta(R1)*dV/dR1)^2+(delta(R2)*dV/dR2)^2).
+Plugging in the numbers, we find that delta(V) due to the resistors is approximately 0.00446V. Hence, the largest source 
+of error would be due to the tolerances of the resistors.

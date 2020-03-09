@@ -1,0 +1,7 @@
+What is the temperature in Celsius? yes
+Not a number, please enter again.
+
+What is the temperature in Celsius? -300
+
+Temperature too low, can't be below absolute zero 0k!!! Reenter please:-250
+The temperature in Fahrenheit is:  -418.0

@@ -1,0 +1,8 @@
+(a) Resistance of cartridge heater: 3.5 Ohms.
+Voltage across heater: 48V. Current I = 48/3.5 = 13.7. 
+Power dissipated = V^2/R = 658.3 Watts
+(b)The Drain-Source voltage is 335 mV, the current is 13.7 amps, and the power dissipated is 
+P = IV = 4.5 Watts.
+(c) (d) See code.
+
+

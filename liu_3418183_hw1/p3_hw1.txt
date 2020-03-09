@@ -1,0 +1,5 @@
+x = hello
+Not a number, please enter again.
+
+x = 3
+11.0

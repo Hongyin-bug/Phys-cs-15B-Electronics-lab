@@ -1,0 +1,2 @@
+After zooming in on the graph, the time difference between the second peaks
+of the thermister and RTD graphs is about 4 seconds.

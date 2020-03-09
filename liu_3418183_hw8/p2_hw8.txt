@@ -1,0 +1,5 @@
+The magnitude of temperature oscillations are reduced by approximately a half.
+With a set point of 35 degrees, the highest temperature attained with the 3% 
+duty cycle is about 41 degreees celcius. 
+The duty cycle I chose was 5%, the oscillations at the two different temperatures
+are 4 to 5 degrees celcius.

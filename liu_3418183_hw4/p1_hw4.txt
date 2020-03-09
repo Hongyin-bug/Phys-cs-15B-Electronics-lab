@@ -1,0 +1,26 @@
+(a) When DAC is set to 0.000V, the opamp output is 0.004V.
+ DAC set to 1.100V, opamp output: 1.100V
+ DAC set to 2.200V, opamp output: 2.204V
+ DAC set to 3.300V, opamp output: 3.288V
+For certain voltages set at the DAC, the opamp output differs by 0.002V to 0.004V.
+
+The difference in voltage across the resistor, v_in - v23 for 1.1V and 3.3V are:
+1.1V: V = 1.1V - 1.1V = 0V; current I = V/R = 0 Amps
+3.3V: V = 3.2880 - 2.030 = 1.258V; current I = V/R = 1.258V/100ohm = 12.58 milli-amps.
+
+(b) Using two voltage readings could reduce the errors in determinig the current,
+such as that due to the resistance of the wires.
+
+(c) Maximum DAC voltage is 3.6V, analog input A2 will draw a current of 
+I = 3.6V/(4.3 * 10^6 ohms) = 8.4 * 10^(-5) Amps, which is really small.
+The corresponding voltage drop acoss the resistor is approximately 1.27V.
+The input impedance of the ADC does not make a significant difference in the
+measurement as it only draws a small amount of current from the resistor,
+so we could use it as a voltmeter.
+
+(d) The minimum DAC voltage to produce light is 1.6V, and the corresponding LED
+current is approximately 2 * 10^-5 Amps. The color of the LED is red.
+
+(e) This time, the minimum DAC voltage to produce light is greater, the value
+being 2.42V, and the corresponding current is approximately 2 * 10^-5 Amps. 
+The color of the LED is blue.

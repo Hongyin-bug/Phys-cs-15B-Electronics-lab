@@ -1,0 +1,4 @@
+On the oscilloscope, I see oscillating square waves with a constant amplitude.
+While the waves are oscillating, the light on the LED turns on and goes off with
+the same period of oscillation.
+The frequency of the PWM signal is 1/(8.2 micro-sec), which is approximately 1.22 * 10^5 Hz.
